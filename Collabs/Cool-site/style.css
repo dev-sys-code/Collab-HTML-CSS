@@ -1,0 +1,46 @@
+body {
+    background-color: #f6f6f8;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.images {
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.phones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #1A73E8;
+}
+
+.navtext {
+    color: black;
+}
+.navdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 1px 50px rgb(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 5px 0;
+    min-height: 50px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 40px;
+}
