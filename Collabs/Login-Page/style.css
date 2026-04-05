@@ -1,1 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    background: linear-gradient(to right, #5B7FFF, #33ccfc);
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+}
+.main-box {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    width: 550px;
+    height: 650px;
+    transition: all 0.3s ease;
+}
 
+.main-box:hover {
+    box-shadow: 0 0 10px #33ccfc;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp-box {
+    width: 250px ;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 0 15px 0;
+    color: black;
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    transition: all 0.3s ease;
+}
+
+.inp-box:hover {
+    transform: scale(1.03);
+}
+
+.inp-box::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.external-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    gap: 15px;
+}
+
+.google, .microsoft {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+
+.google:hover, .microsoft:hover {
+    transform: scale(1.03);
+}
+
+.logo {
+    padding: 15px;
+    justify-content: flex-start;
+}
+
+.login {
+    width: 150px ;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 0 15px 0;
+    color: black;
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    transition: all 0.3s ease;
+}
+
+.login:hover {
+    transform: scale(1.03);
+}
+
+.Login-btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.F-P-C-A {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px auto;
+} 
