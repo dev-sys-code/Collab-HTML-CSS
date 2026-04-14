@@ -4,12 +4,17 @@ body {
     color: white;
     font-size: 15px;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 }
 .pfp {
@@ -44,4 +49,5 @@ a {
     text-align: center;
     text-decoration: none;
     color: black;
+    box-shadow: 1px 2px 5px black
 }
