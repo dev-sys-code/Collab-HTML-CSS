@@ -8,6 +8,6 @@ This repo contains our web development practices
 ## Projects
 - Login Page
 - Duo-profile Page
-- Single-profile Page
+- Linktree Page
 - Product page
 - Chat Bot UI
