@@ -1,7 +1,7 @@
 # HTML / CSS / JS Projects
 
 This repo contains our web development practices
-ame
+
 
 ## Projects
 - Login Page
