@@ -1,9 +1,7 @@
 # HTML / CSS / JS Projects
 
 This repo contains our web development practices
-
-## Long-term projects
-- Code-fixing game
+ame
 
 ## Projects
 - Login Page
